@@ -1,0 +1,8 @@
+images/*
+output/*
+venv_mtg/*
+*.pyc
+
+*.swp
+*.swo
+.DS_Store
