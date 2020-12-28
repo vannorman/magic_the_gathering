@@ -6,3 +6,4 @@ venv_mtg/*
 *.swp
 *.swo
 .DS_Store
+temp/*
