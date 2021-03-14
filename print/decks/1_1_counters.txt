@@ -1,0 +1,91 @@
+1 Abzan Battle Priest
+1 Abzan Charm
+1 Ajani, the Greathearted
+1 Anguished Unmaking
+1 Arcane Denial
+1 Arcane Signet
+1 Bala Ged Recovery // Bala Ged Sanctuary
+1 Biogenic Upgrade
+1 Bioshift
+1 Branching Evolution
+1 Branchloft Pathway // Boulderloft Pathway
+1 Bred for the Hunt
+1 Champion of Lambholt
+1 Circuitous Route
+1 Citadel Siege
+1 Command Tower
+1 Conclave Mentor
+1 Contentious Plan
+1 Corpsejack Menace
+1 Cultivate
+1 Despark
+1 Duneblast
+1 Eladamri's Call
+1 Evolution Sage
+1 Explosive Vegetation
+1 Farseek
+1 Fathom Mage
+1 Felidar Retreat
+1 Fertilid
+1 Find // Finality
+1 Flawless Maneuver
+1 Forgotten Ancient
+1 Gavony Township
+1 Give // Take
+1 Golgari Charm
+1 Grakmaw, Skyclave Ravager
+1 Gyre Sage
+1 Hadana's Climb // Winged Temple of Orazca
+1 Hardened Scales
+1 Herald of Secret Streams
+1 Heroic Intervention
+1 Hydra's Growth
+1 Incubation Druid
+1 Inspiring Call
+1 Invigorating Surge
+1 Ishai, Ojutai Dragonspeaker
+1 Ivorytusk Fortress
+1 Juniper Order Ranger
+1 Karn's Bastion
+1 Kodama's Reach
+1 Loyal Guardian
+1 Managorger Hydra
+1 Master Biomancer
+1 Mortify
+1 Mosswort Bridge
+1 Negate
+1 Novijen, Heart of Progress
+1 Opal Palace
+1 Opulent Palace
+1 Oran-Rief, the Vastwood
+1 Overwhelming Stampede
+1 Plaxcaster Frogling
+1 Pledge of Unity
+1 Putrefy
+1 Rampant Growth
+1 Retribution of the Ancients
+1 Return of the Wildspeaker
+1 Reyhan, Last of the Abzan
+1 Rishkar's Expertise
+1 Rishkar, Peema Renegade
+1 Sandsteppe Citadel
+1 Shalai, Voice of Plenty
+1 Simic Ascendancy
+1 Simic Signet
+1 Skyclave Relic
+1 Slash the Ranks
+1 Sol Ring
+1 Solidarity of Heroes
+1 Stubborn Denial
+1 Supreme Verdict
+1 Tezzeret's Gambit
+1 The Ozolith
+1 Toothy, Imaginary Friend
+1 Tuskguard Captain
+1 Unbreakable Formation
+1 Vastwood Surge
+1 Vorel of the Hull Clade
+1 Winding Constrictor
+1 Yahenni, Undying Partisan
+1 Zameck Guildmage
+

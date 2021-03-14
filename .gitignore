@@ -1,9 +1,10 @@
-images/*
-output/*
-venv_mtg/*
+print/images/*
+print/output/*
+print/venv_mtg/*
 *.pyc
 
 *.swp
 *.swo
 .DS_Store
 temp/*
+calc/*

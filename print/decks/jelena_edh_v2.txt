@@ -1,0 +1,81 @@
+1 Fury Storm
+1 Valki, God of Lies
+1 Tiablt_backside
+1 Praetor's Grasp
+1 Robber of the Rich
+1 Diluvian Primordial
+1 Temple of Malice
+1 Talent of the Telepath
+1 Thief of Sanity
+1 Vandalblast
+1 Totally Lost
+1 Stolen Strategy
+1 Grinning Totem
+1 Luxury Suite
+1 Sublime Epiphany
+3 Snow-Covered Island
+1 Fallen Shinobi
+1 Nicol Bolas, God-Pharaoh
+1 Zareth San, the Trickster
+1 Ashiok, Nightmare Muse
+1 Blatant Thievery
+1 Mnemonic Betrayal
+1 Hostage Taker
+1 Swiftfoot Boots
+1 Mind's Dilation
+1 Watery Grave
+2 Snow-Covered Mountain
+1 Nightveil Specter
+1 Draugr Necromancer
+1 Crumbling Necropolis
+1 Gilded Lotus
+1 Gonti, Lord of Luxury
+1 Ornate Kanzashi
+1 Etali, Primal Storm
+1 Telemin Performance
+1 Spark Double
+1 Stolen Goods
+1 Lazav, Dimir Mastermind
+1 Chromatic Lantern
+1 Dimir Signet
+1 Volatile Fjord
+1 Thada Adel, Acquisitor
+1 Wrexial, the Risen Deep
+1 Sepulchral Primordial
+1 Hinder
+3 Snow-Covered Swamp
+1 Mystic Sanctuary
+1 Arcane Signet
+1 Sunbird's Invocation
+1 Opposition Agent
+1 Bedevil
+1 Glasspool Mimic
+1 Grenzo, Havoc Raiser
+1 Thran Dynamo
+1 Memory Lapse
+1 Ice Tunnel
+1 Rakdos Signet
+1 Kukemssa Pirates
+1 Morphic Pool
+1 Acquire
+1 Vanishment
+1 Helm of the Host
+1 Memory Plunder
+1 Oubliette
+1 Lightning Greaves
+1 Expel from Orazca
+1 Bribery
+1 Sol Ring
+1 Beacon of Unrest
+1 Wayfarer's Bauble
+1 Izzet Signet
+1 Dragonskull Summit
+1 Oblivion Sower
+1 Dead Man's Chest
+1 Knowledge Exploitation
+1 Temple of Deceit
+1 Temple of Epiphany
+
+// Commander
+
+// Outside the Game
