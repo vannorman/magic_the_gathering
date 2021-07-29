@@ -1,0 +1,75 @@
+1 Sharktocrab
+1 Everythingamajig
+1 Huatli's Raptor
+1 Merfolk Skydiver
+1 Thrummingbird
+1 Roalesk, Apex Hybrid
+1 Mikaeus, the Lunarch
+1 Yawgmoth, Thran Physician
+1 Undying Evil
+1 Strangleroot Geist
+1 Chromatic Lantern
+1 Managorger Hydra
+1 Sunscorch Regent
+1 Iridescent Hornbeetle
+1 Varragoth, Bloodsky Sire
+1 Burning-Rune Demon
+1 Zameck Guildmage
+1 Wildwood Scourge
+1 Jiang Yanggu, Wildcrafter
+1 Jace, Arcane Strategist
+1 Ajani, the Greathearted
+1 Tome of Legends
+1 Cryptolith Rite
+1 Black Market
+1 The Ozolith
+1 Akroma's Will
+1 Swallow Whole
+1 Bant Charm
+1 Golgari Charm
+1 Lux Cannon
+1 Ravaging Riftwurm
+1 Combine Guildmage
+1 Pollenbright Druid
+1 Evolution Sage
+1 Flux Channeler
+1 Guildpact Informant
+1 Bloom Hulk
+1 Forgotten Ancient
+1 Viral Drake
+1 Kiora's Dambreaker
+1 Ajani Goldmane
+1 Astral Cornucopia
+1 Everflowing Chalice
+1 Magistrate's Scepter
+1 Empowered Autogenerator
+1 Contagion Engine
+1 Chromatic Orrery
+1 Hardened Scales
+1 Cathars' Crusade
+1 Inexorable Tide
+1 Grim Affliction
+1 Inspiring Call
+1 Steady Progress
+1 Fuel for the Cause
+1 Ready / Willing
+1 Contentious Plan
+1 Courage in Crisis
+1 Cultivate
+1 Nissa's Pilgrimage
+1 Tezzeret's Gambit
+1 Jace's Ruse
+1 Spread the Sickness
+1 Crystalline Crawler
+1 Arcane Lighthouse
+1 Detection Tower
+1 Karn's Bastion
+7 Swamp
+12 Forest
+7 Island
+7 Plains
+
+// Commander
+1 Atraxa, Praetors' Voice
+
+// Outside the Game

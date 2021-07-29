@@ -1,3 +1,4 @@
+from string import digits
 from pathlib import Path
 import sys
 from PIL import Image, ImageOps
@@ -57,12 +58,16 @@ def main(*args):
         
         # for each card in that decklist,
         for card in cards:
-            if len(card) == 0 or not card[0].isnumeric():
+            if len(card) == 0 or not card[0].isnumeric() or len(card.split(' ')[0]) != 1:
                 print(bcolors.WARNING+"SKIP "+bcolors.ENDC+"card, no num")
                 continue
-    
+                        
             # separate number from search, e.g. "4 Angel of Avacyn" becomes "Angel of Avacyn"
-            count, card_name = int(card[:1]), card[2:]
+            count, card_name, card_name_lower = int(card[:1]), card[2:], card[2:].lower()
+
+            if card_name_lower == "swamp" or card_name_lower == "island" or card_name_lower =="mountain" or card_name_lower =="forest" or card_name_lower == "plains":
+                print(bcolors.WARNING+"LAND SKIPPED"+bcolors.ENDC+": "+card_name)
+                continue
 
             # Did we already download this card before?
             saved_card_file_name = check_saved_card_exists(card_name)
@@ -73,6 +78,7 @@ def main(*args):
                 print(bcolors.OKBLUE+'card '+card_name+' was saved! ('+saved_card_file_name+') -- skip check')
                 print(bcolors.ENDC)
                 image_file_name = saved_card_file_name
+                master_list['images/'+image_file_name] = count
             
             # Nope I've never seen this card before in my life. Download it
             else:
@@ -83,34 +89,31 @@ def main(*args):
                 # here, it's possible we found multiple cards.
                 # if so, the first one is usually correct (shortest name).
                 if bs.find_all("a", {"class": "card-grid-item-card"}):
-                    print(bcolors.OKBLUE+'found card grid item:')
-                    for item in  bs.find_all("a", {"class": "card-grid-item-card"}):
-                        print('item:'+str(item))
+                    print(bcolors.OKBLUE+'name '+str(card)+' returned multiple results; picking first')
+                    print(bcolors.ENDC)
                     card_link = bs.find_all("a", {"class": "card-grid-item-card"})[0]['href']
-                    print(' and card link:'+card_link)
                     html = urlopen(card_link)
                     bs = BeautifulSoup(html,'html.parser')
-                    image_url = bs.find_all('img')[0]['src']
-                    print('.. and img url:'+image_url)
-                    print(bcolors.ENDC)
                 
-                 
+                image_file_name = get_and_save_image(bs,0)
+   
+                # Finally - was this a Transform card with a back? If so, 
+                if len(bs.find_all('div', {"class":"card-image-back"})) != 0:
+                    print("~~~ HAS BACK!")
+                    # it was a wacky Transform card. First add the front that we already got.
+                    master_list['images/'+image_file_name] = count
+                
+                    image_back_file_name = get_and_save_image(bs,1)
+                    master_list['images/'+image_back_file_name] = count
+                    # DO NOT save cards with backs, just look it up each time.. easier
+                    
 
-            
-                image_url = bs.find_all('img')[0]['src']
-                print('.. then img url:'+image_url)
-                image_file_name = re.search('([^\/]+$)',image_url)[0] # after last "/"
-                image_file_name = re.search('([^?]*)', image_file_name)[0] # before "?"
-                if path.exists('images/'+image_file_name):
-                    print(bcolors.OKCYAN+'image '+image_file_name+' exists, skipping!')
                 else:
-                    print(bcolors.OKBLUE+'adding:'+image_file_name)
-                    urllib.request.urlretrieve(image_url,'images/'+image_file_name)
-
-                print(bcolors.ENDC)
-    
-                # We downloaded a card. Now save the card! For later. :-]
-                save_card_to_cache(card_name,image_file_name)
+                    # We downloaded a card. 
+                    # it wasn't a fancy transform card with a back.
+                    # Now save the card! For later. :-]
+                    save_card_to_cache(card_name,image_file_name)
+                    master_list['images/'+image_file_name] = count
 
             # Now, we have the card image
             # but sometimes card image is wrong size
@@ -120,7 +123,6 @@ def main(*args):
 #            im = im.resize((672, 936))
 #            im.save('images/'+image_file_name)
 
-            master_list['images/'+image_file_name] = count
         
         print(master_list)
         # expand master list to file list, with duplicates for count
@@ -233,10 +235,18 @@ def append_new_line(file_name, text_to_append):
         # Append text at the end of file
         file_object.write(text_to_append)
 
+def get_and_save_image(bs,index):
+    image_url = bs.find_all('img')[index]['src']
+    image_file_name = re.search('([^\/]+$)',image_url)[0] # after last "/"
+    image_file_name = re.search('([^?]*)', image_file_name)[0] # before "?"
+    print(bcolors.OKBLUE+'adding:'+image_file_name)
+    if index != 1: image_file_name = "back_"+image_file_name
+    urllib.request.urlretrieve(image_url,'images/'+image_file_name)
+    return image_file_name
+
 
 
 if __name__ == "__main__":
     # execute only if run as a script
     main()
-
 

@@ -1,8 +1,4 @@
-Primal Wellspring (back);Primal-Wellspring-(back).jpg
 Bioshift;6e18f7a9-2af6-467a-8f62-5f7da83a3c92.jpg
-Tibalt, Cosmic Imposter;tibalt-cosmic-impostor-(back).jpg
-Tiablt_backside;khm-114-tibalt-cosmic-impostor.png
-Valki, God of Lies;ea7e4c65-b4c4-4795-9475-3cba71c50ea5.jpg
 Fury Storm;10dad353-7200-46de-96ad-4c457b94c62b.jpg
 Praetor's Grasp;9588be49-d9b5-4491-a5a0-10bcadc9f8b3.jpg
 Robber of the Rich;0ecbe097-ba51-42e5-957c-382eb66c08f0.jpg
@@ -96,7 +92,6 @@ Liliana, Death Wielder;ac79d8f6-7c36-4eb9-8bda-3b813c634399.jpg
 Carnifex Demon;c191dba2-659d-40e7-a558-c99ece872197.jpg
 Crumbling Ashes;3e73ac3c-bd5a-4993-be65-76396b7d38ad.jpg
 Blowfly Infestation;ae027b38-a6cc-41f7-8f0d-9d1402b46517.jpg
-Primal Amulet;d4d379b5-7f56-4a7d-a4ac-131fc3d579c6.jpg
 Reverberate;5996feb4-02ac-45e8-a7f2-966cf74391dc.jpg
 Bonus Round;e21aa266-4264-4e02-9403-02930e641573.jpg
 Memnarch;9203fde4-dbc1-449f-9618-4656f0e25e3c.jpg
@@ -258,3 +253,99 @@ World Shaper;d59c87f5-95ab-4385-abbe-99a3149bdbcf.jpg
 Wurmcoil Engine;5d275f04-cc60-4e3f-95cc-3d02bc916b82.jpg
 Intuition;c99f6785-e5a1-4fdc-9fb5-e1a372e7e848.jpg
 Damnation;941b65da-b9b3-4e15-bab5-bcbfd20dbe05.jpg
+Sharktocrab;back_db490f74-977f-476d-b8ee-da7b0a98b4c4.jpg
+Everythingamajig;back_e09bef24-a186-4697-bd33-446fe6e25376.jpg
+Huatli's Raptor;back_ba680ad0-6134-46e0-8fcb-532b2052eca7.jpg
+Merfolk Skydiver;back_2bf211eb-837b-4c02-b02e-8d9e62f1abb1.jpg
+Thrummingbird;back_e4adf2d0-5a76-498e-88d4-474d6934a2f5.jpg
+Roalesk, Apex Hybrid;back_de14b4fd-fb4e-4986-9123-69ae68b5050a.jpg
+Mikaeus, the Lunarch;back_1b24d60d-bd80-4363-829c-a9d7f8c61fdf.jpg
+Yawgmoth, Thran Physician;back_8690cbcc-f8fd-41f7-9e28-e61c12b04014.jpg
+Undying Evil;back_325f2243-54fd-484b-a742-166cea7ec179.jpg
+Strangleroot Geist;back_bf1fb137-205c-480f-b6dc-dfa137793ae3.jpg
+Managorger Hydra;back_1a08e5ab-1ff9-4470-ab28-fea19bb79845.jpg
+Sunscorch Regent;back_27c4da08-3f62-4945-9cf0-44749002fa6c.jpg
+Iridescent Hornbeetle;back_214ef641-b08c-42d0-94a5-3054fa7fcebc.jpg
+Varragoth, Bloodsky Sire;back_efa8dbf0-4e5a-452b-826f-5813e8cd9d85.jpg
+Burning-Rune Demon;back_f358a52b-8044-404e-8d04-2ec5903386cc.jpg
+Zameck Guildmage;back_feeaf99b-7720-42e3-8cb1-23218b646458.jpg
+Wildwood Scourge;back_46ff0b33-d153-4b0e-ac48-7e5ed70dea09.jpg
+Jiang Yanggu, Wildcrafter;back_10e0d47d-b13c-4d48-881f-8aaa347ef209.jpg
+Jace, Arcane Strategist;back_b6a857fb-159f-40c4-8988-da91d8521a60.jpg
+Ajani, the Greathearted;back_00b33e71-ef08-4aeb-bca2-a2a4a43c2e0d.jpg
+Tome of Legends;back_040301e8-20c1-4f4c-8766-d05f11415efd.jpg
+Cryptolith Rite;back_2910adcd-882a-46af-8236-ca1a9e2c19ab.jpg
+Black Market;back_4e71f0a2-0c22-4be1-b9ba-c4603a5c71e5.jpg
+The Ozolith;back_8f9bc5e5-b34e-4274-9ad4-84f405a4e176.jpg
+Akroma's Will;back_c281997b-1566-4469-a14c-6645f81ab023.jpg
+Swallow Whole;back_c3b9140b-848f-4886-8c28-eccd3829a607.jpg
+Bant Charm;back_65b65c87-b084-44aa-b841-411a3c73e234.jpg
+Golgari Charm;back_3fee2bfe-4fef-44f9-9192-ad04e1819740.jpg
+Lux Cannon;back_a13b7fee-100b-444e-9f13-45b36fd10295.jpg
+Ravaging Riftwurm;back_5e09949e-c8cd-4bb4-9ed4-699abbc7ad3c.jpg
+Combine Guildmage;back_3a6e2816-d50b-41a5-b503-faa58dc7c94a.jpg
+Pollenbright Druid;back_4b0f478c-54f8-4087-ad52-d089e2049dda.jpg
+Evolution Sage;back_969bf351-c7df-4eb0-8065-9b8d5233f8f3.jpg
+Flux Channeler;back_c6202e82-e159-482f-9224-292cb533171c.jpg
+Guildpact Informant;back_a304200f-86d5-4eed-a775-cc24e72872ac.jpg
+Bloom Hulk;back_fd1c9129-254d-4d1d-9d95-112292bd6bcc.jpg
+Forgotten Ancient;back_96a9249a-18eb-402d-a387-b3e95edb540d.jpg
+Viral Drake;back_d89b312b-cc90-4f08-ae2e-043a79e51156.jpg
+Kiora's Dambreaker;back_acd61fb0-a82b-4f46-8043-c6b89764720b.jpg
+Ajani Goldmane;back_2d911053-a026-4b20-ba2d-dbcc367c1413.jpg
+Magistrate's Scepter;back_ecf1f24f-d910-4ec6-95d2-0ecaf9f051aa.jpg
+Empowered Autogenerator;back_2c9b8d53-97c9-4e3d-a8c6-6abd78db6390.jpg
+Contagion Engine;back_dce72636-08e4-484e-ad81-4d1597a31ffb.jpg
+Chromatic Orrery;back_062fcd2b-7f63-47bf-83ba-88e33d397a6e.jpg
+Hardened Scales;back_7dcdf1db-bfaf-4160-8003-1fa2e56b00dc.jpg
+Cathars' Crusade;back_9cddd843-78c6-4d47-8137-cd17e559ddd2.jpg
+Inexorable Tide;back_8f41e281-fcbb-450b-8a67-7b072c55c6f0.jpg
+Grim Affliction;back_d8145805-daa8-43c0-9f22-e6829f6ed390.jpg
+Inspiring Call;back_6221f00b-39dc-423a-bace-1bc15e1e91f7.jpg
+Steady Progress;back_6fe212ed-31cb-4f10-8ba7-e97af1d30d24.jpg
+Fuel for the Cause;back_4126e0e5-9b23-496f-8a09-7a35499f9a09.jpg
+Ready / Willing;back_22081f95-dc8e-41ed-b609-b6a22ee5428b.jpg
+Contentious Plan;back_8e30deb6-9e1f-4545-ae30-c30ba6c7b3a0.jpg
+Courage in Crisis;back_67a22083-9ef9-4ff7-8502-3a77e69299df.jpg
+Cultivate;back_46419c85-c476-42b8-979f-143b45c6819b.jpg
+Nissa's Pilgrimage;back_800cef89-e90c-4f84-a7a0-3cd203532169.jpg
+Tezzeret's Gambit;back_1beea6e6-d201-4f6a-ab06-e5a3d04db123.jpg
+Jace's Ruse;back_03e8d2c7-cd6e-48bf-9d54-73f3d6cff0aa.jpg
+Spread the Sickness;back_de42a771-4f5c-4295-b070-8cb857a0279e.jpg
+Crystalline Crawler;back_02b90a7c-288d-420a-91b2-bd9ced5767e4.jpg
+Arcane Lighthouse;back_fa90e142-15d4-461a-9e57-4a301a5df958.jpg
+Detection Tower;back_02f99756-d334-4dba-a375-ba3d91ecae62.jpg
+Karn's Bastion;back_ee58ea1e-af16-4c32-8df8-7bc5fe59802d.jpg
+Swamp;back_afa47202-5824-4f6a-b306-465976d4d422.jpg
+ Forest;back_24a5cc2c-0fbf-4a5f-b175-6e0ffd0d0787.jpg
+Island;back_b12e5430-0e80-47dd-80ac-85728b656a24.jpg
+Plains;back_724acbe2-4c82-4360-a738-38cc6aa0c4a4.jpg
+Atraxa, Praetors' Voice;back_b2e330dd-7cd3-445d-9c05-56e4a57526e9.jpg
+ Forest;back_24a5cc2c-0fbf-4a5f-b175-6e0ffd0d0787.jpg
+sharktocrab;back_db490f74-977f-476d-b8ee-da7b0a98b4c4.jpg
+everythingamajig;back_e09bef24-a186-4697-bd33-446fe6e25376.jpg
+huatli's raptor;back_ba680ad0-6134-46e0-8fcb-532b2052eca7.jpg
+merfolk skydiver;back_2bf211eb-837b-4c02-b02e-8d9e62f1abb1.jpg
+thrummingbird;back_e4adf2d0-5a76-498e-88d4-474d6934a2f5.jpg
+roalesk, apex hybrid;back_de14b4fd-fb4e-4986-9123-69ae68b5050a.jpg
+mikaeus, the lunarch;back_1b24d60d-bd80-4363-829c-a9d7f8c61fdf.jpg
+yawgmoth, thran physician;back_8690cbcc-f8fd-41f7-9e28-e61c12b04014.jpg
+undying evil;back_325f2243-54fd-484b-a742-166cea7ec179.jpg
+strangleroot geist;back_bf1fb137-205c-480f-b6dc-dfa137793ae3.jpg
+chromatic lantern;back_7ff8e733-877b-46e2-ac80-c51cafe18d3d.jpg
+Lash of Malice;back_af3da2c6-29ed-4563-8bae-d1cc05df8897.jpg
+Implement of Malice;back_2e45ca82-e387-4df0-890d-d53a7d0dadf7.jpg
+Knight of Malice;back_b45266f0-eb4f-4a06-bc64-8c2d774b4cc5.jpg
+Grove of the Burnwillows;back_de4b75ad-7539-4184-a940-6014a0327b3a.jpg
+Lash of Malice;back_af3da2c6-29ed-4563-8bae-d1cc05df8897.jpg
+Implement of Malice;back_2e45ca82-e387-4df0-890d-d53a7d0dadf7.jpg
+Knight of Malice;back_b45266f0-eb4f-4a06-bc64-8c2d774b4cc5.jpg
+Grove of the Burnwillows;back_de4b75ad-7539-4184-a940-6014a0327b3a.jpg
+Lash of Malice;back_af3da2c6-29ed-4563-8bae-d1cc05df8897.jpg
+Implement of Malice;back_2e45ca82-e387-4df0-890d-d53a7d0dadf7.jpg
+Knight of Malice;back_b45266f0-eb4f-4a06-bc64-8c2d774b4cc5.jpg
+Grove of the Burnwillows;back_de4b75ad-7539-4184-a940-6014a0327b3a.jpg
+Lash of Malice;back_af3da2c6-29ed-4563-8bae-d1cc05df8897.jpg
+Implement of Malice;back_2e45ca82-e387-4df0-890d-d53a7d0dadf7.jpg
+Knight of Malice;back_b45266f0-eb4f-4a06-bc64-8c2d774b4cc5.jpg
+Grove of the Burnwillows;back_de4b75ad-7539-4184-a940-6014a0327b3a.jpg
