@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 import re
 import os, shutil
 from os import path
-from PyPDF2 import PdfFileMerger
+from PyPDF2 import PdfMerger
 
 class bcolors:
     HEADER = '\033[95m'
@@ -75,7 +75,7 @@ def main(*args):
 
             # if so, read the file name from the saved_cards.txt and don't bother downloading it
             if saved_card_file_name is not None: 
-                print(bcolors.OKBLUE+'card '+card_name+' was saved! ('+saved_card_file_name+') -- skip check')
+                sys.stdout.write(bcolors.OKBLUE+'card '+card_name+' was saved! ('+saved_card_file_name+') -- skip check')
                 print(bcolors.ENDC)
                 image_file_name = saved_card_file_name
                 master_list['images/'+image_file_name] = count
@@ -83,7 +83,9 @@ def main(*args):
             # Nope I've never seen this card before in my life. Download it
             else:
                 # use scryfall opensearch from opensearch.xml on scryfall.com source
-                html = urlopen('https://scryfall.com/search?q='+card_name.replace(' ','')+'&unique=cards&as=grid&order=usd&dir=desc')
+                url = 'https://scryfall.com/search?as=grid&order=name&q='+card_name.replace(' ','+')+'+%28game%3Apaper%29'
+                print("Searching:"+url);
+                html = urlopen(url)
                 bs = BeautifulSoup(html,'html.parser')
 
                 # here, it's possible we found multiple cards.
@@ -160,9 +162,10 @@ def main(*args):
             page.save("temp/"+page_name)
             page_files.append("temp/"+page_name)
 
-        merger = PdfFileMerger()
+        merger = PdfMerger()
 
         for pdf in page_files:
+            
             merger.append(pdf)
 
         filename = re.search('[^\.]+',filename)[0] #strip the .txt
@@ -208,6 +211,11 @@ def combine(image_files = ['a.png' for i in range(9)]):
             y_offset += im.size[1]
         else:   
             x_offset += im.size[0]
+
+    # pad the outside to make cards smaller / easier to sleeve
+    new_im = ImageOps.expand(new_im,border=25,fill='black')
+    new_im = ImageOps.expand(new_im,border=25,fill='white')
+
     return new_im
 
 def clean_temp_dir():
