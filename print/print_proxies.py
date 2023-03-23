@@ -41,15 +41,19 @@ def save_card_to_cache(card_name,image_file_name):
     
 
 def main(*args):
-    # make sure saved / cached cards file exists
-    Path('saved_cards.txt').touch()
+    # make sure saved / cached cards file exists, and required directories.
+
+    Path('saved_cards.txt').touch() 
 
     # get each arg (a decklist)
     if len(sys.argv) <= 1:
         print('\n'+bcolors.WARNING+" no arg supplied"+bcolors.ENDC)
-        print('\n'+bcolors.OKBLUE+"usage: "+bcolors.ENDC+"python print.py file1.txt file2.txt\n each file should be a Magic the Gathering decklist.\n\n "+bcolors.UNDERLINE+"Sample_file.txt"+bcolors.ENDC+bcolors.OKCYAN+"\n 1 Ant Queen \n 4 Sword of Fire and Ice \n 2 Rite of Replication"+bcolors.ENDC+"\n")
+        print('\n'+bcolors.OKBLUE+"usage: "+bcolors.ENDC+"python print.py sample_file.txt \n each file should be a Magic the Gathering decklist.\n\n "+bcolors.UNDERLINE+"Sample_file.txt"+bcolors.ENDC+bcolors.OKCYAN+"\n 1 Ant Queen \n 4 Sword of Fire and Ice \n 2 Rite of Replication"+bcolors.ENDC+"\n")
+        return 1
+
     for arg in sys.argv[1:]:
         print("arg:"+arg)
+
     for filename in sys.argv[1:]:
         # for each decklist,
         master_list = {}    
