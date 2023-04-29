@@ -1,0 +1,240 @@
+1 Ruthless Technomancer
+1 Disciple of Bolas
+1 Malakir Rebirth
+1 Experimental Augury
+1 Trailblazer's Boots
+1 Read the Bones
+1 Drown in Ichor
+1 Rite of Consumption
+1 Minion's Return
+1 Snakeskin Veil
+1 Ugin's Nexus
+1 Hunter's Insight
+1 Tyrite Sanctum
+1 Call to the Void
+1 Jin-Gitaxias, Core Augur
+1 Mind Raker
+1 Oracle of Dust
+1 Ulamog's Reclaimer
+1 Ashiok, Nightmare Muse
+1 Ulamog's Nullifier
+1 Tasha, the Witch Queen
+1 Ulamog's Despoiler
+1 Oblivion Sower
+1 Wasteland Strangler
+1 Ruin Processor
+1 Blight Herder
+1 Knowledge Pool
+1 Cryptic Cruiser
+1 Murk Strider
+1 Ulamog, the Ceaseless Hunger
+1 Bane of Bala Ged
+1 Yarok's Fenlurker
+1 Sire of Stagnation
+1 Arvinox, the Mind Flail
+1 Tunnel Vision
+1 Animate Dead
+1 Umbris, Fear Manifest
+1 The Cruelty of Gix
+1 Hostage Taker
+1 Void Shatter
+1 Telemin Performance
+1 Reanimate
+1 Wrexial, the Risen Deep
+1 Undead Alchemist
+1 Encroaching Mycosynth
+1 Syncopate
+1 Summary Dismissal
+1 Reject
+1 Soul Exchange
+1 Vedalken Orrery
+1 Spelljack
+1 Settle the Score
+1 Kalitas, Traitor of Ghet
+1 From the Catacombs
+1 Gonti, Lord of Luxury
+1 Guile
+1 Force of Will
+1 Liliana, Heretical Healer
+1 Horribly Awry
+1 Havengul Runebinder
+1 Flay Essence
+1 Liliana, Dreadhorde General
+1 Liliana, the Last Hope
+1 Force of Negation
+1 Liliana Vess
+1 Liliana, Waker of the Dead
+1 Liliana, the Necromancer
+1 Ugin, the Spirit Dragon
+1 Oath of Liliana
+1 Liliana's Talent
+1 Karn Liberated
+1 Liliana's Scrounger
+1 Descent into Madness
+1 Zareth San, the Trickster
+1 Dark Impostor
+1 Dauthi Voidwalker
+1 Defabricate
+1 Wretched Confluence
+1 Dimir Charm
+1 Demonic Tutor
+1 Vat Emergence
+1 It That Betrays
+1 Visions of Dread
+1 Victimize
+1 The Eldest Reborn
+1 Dimir Signet
+1 Necromancy
+1 Portal to Phyrexia
+1 Yawgmoth's Vile Offering
+1 Dance of the Dead
+1 Spelltwine
+1 Rise from the Grave
+1 Chancellor of the Spires
+1 Spellkeeper Weird
+1 The Mirari Conjecture
+1 Soul Manipulation
+1 Urborg Justice
+1 Mnemonic Betrayal
+1 Snapcaster Mage
+1 Sheoldred, Whispering One
+1 Sheoldred
+1 Soul Strings
+1 Shamble Back
+1 Spellweaver Helix
+1 See Double
+1 Insidious Will
+1 Relearn
+1 Jin-Gitaxias
+1 Jin-Gitaxias, Progress Tyrant
+1 Bitterthorn, Nissa's Animus
+1 Void Maw
+1 Sword of the Animist
+1 Leyline of the Void
+1 Planar Void
+1 Void Snare
+1 Brainstealer Dragon
+1 Shard of the Void Dragon
+1 Maddening Cacophony
+1 Grazilaxx, Illithid Scholar
+1 Siphon Insight
+1 Sire of Stagnation
+1 Mind Flayer
+1 Consuming Aberration
+1 Spellskite
+1 Hullbreaker Horror
+1 Nightmare Shepherd
+1 Wharf Infiltrator
+1 Uchuulon
+1 Zellix, Sanity Flayer
+1 Thing in the Ice
+1 Dread Presence
+1 Defiler of Flesh
+1 Spark Double
+1 Captain N'ghathrod
+1 Ruin Crab
+1 Notion Thief
+1 Baleful Strix
+1 Misery's Shadow
+1 Opposition Agent
+1 Cyclonic Rift
+1 Diluvian Primordial
+1 Rings of Brighthearth
+1 Grell Philosopher
+1 Author of Shadows
+1 Resculpt
+1 Fathom Feeder
+1 Syr Konrad, the Grim
+1 Phyrexian Obliterator
+1 Memory Plunder
+1 Braids, Arisen Nightmare
+1 Drown in the Loch
+1 Shadowspear
+1 An Offer You Can't Refuse
+1 Omniscience
+1 Drown in Dreams
+1 Mana Drain
+1 Fierce Guardianship
+1 Malakir Rebirth
+1 Gale's Redirection
+1 Szat's Will
+1 Offer Immortality
+1 Arcane Denial
+1 Aetherize
+1 Brainstorm
+1 Didn't Say Please
+1 Fact or Fiction
+1 Deadly Rollick
+1 Mystical Tutor
+1 Nurgle's Conscription
+1 Crypt Incursion
+1 Perplex
+1 Swan Song
+1 Extinction Event
+1 Covetous Urge
+1 Spoils of Blood
+1 Nightmare Unmaking
+1 Curse of the Swine
+1 Fractured Sanity
+1 Toxic Deluge
+1 Teferi's Time Twist
+1 Extract Brain
+1 Rite of Replication
+1 Narset's Reversal
+1 Whispering Madness
+1 Windfall
+1 Damnation
+1 Ponder
+1 Bloodchief Ascension
+1 Read the Bones
+1 Praetor's Grasp
+1 Predators' Hour
+1 Blue Sun's Twilight
+1 Psionic Ritual
+1 Chaos Wand
+1 Mindcrank
+1 Lightning Greaves
+1 Relic of Progenitus
+1 Realmbreaker, the Invasion Tree
+1 Mesmeric Orb
+1 Rod of Absorption
+1 Mystic Remora
+1 Archmage's Charm
+1 Altar of the Brood
+1 Endless Evil
+1 Propaganda
+1 Rhystic Study
+1 Dead Man's Chest
+1 Ancestral Recall
+1 Darksteel Plate
+1 Dimir Doppelganger
+1 God-Pharaoh's Gift
+1 Thief of Sanity
+1 Heartless Summoning
+1 Liliana, Death's Majesty
+1 Duskmantle Guildmage
+1 The Meathook Massacre
+1 Training Grounds
+1 Phyrexian Tower
+1 Prismatic Vista
+1 Reflecting Pool
+1 Morphic Pool
+1 Drowned Catacomb
+1 Bojuka Bog
+1 Zhalfirin Void
+1 Mystic Sanctuary
+1 Cabal Coffers
+1 Dimir Aqueduct
+1 Watery Grave
+1 Underground Sea
+1 Sunken Hollow
+1 Polluted Delta
+1 Field of the Dead
+1 Tyrite Sanctum
+1 Otawara, Soaring City
+1 Urborg, Tomb of Yawgmoth
+1 Myriad Landscape
+1 Fabled Passage
+1 Nykthos, Shrine to Nyx
+1 Takenuma, Abandoned Mire
+1 The Scarab God

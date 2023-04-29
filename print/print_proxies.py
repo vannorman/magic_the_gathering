@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 import re
 import os, shutil
 from os import path
-from PyPDF2 import PdfMerger
+from PyPDF2 import PdfFileMerger
 
 class bcolors:
     HEADER = '\033[95m'
@@ -44,6 +44,14 @@ def main(*args):
     # make sure saved / cached cards file exists, and required directories.
 
     Path('saved_cards.txt').touch() 
+    if not os.path.exists('temp'):
+        os.makedirs('temp')
+    if not os.path.exists('output'):
+        os.makedirs('output')
+    if not os.path.exists('output/decks'):
+        os.makedirs('output/decks')
+    if not os.path.exists('images'):
+        os.makedirs('images')
 
     # get each arg (a decklist)
     if len(sys.argv) <= 1:
@@ -95,11 +103,22 @@ def main(*args):
                 # here, it's possible we found multiple cards.
                 # if so, the first one is usually correct (shortest name).
                 if bs.find_all("a", {"class": "card-grid-item-card"}):
-                    print(bcolors.OKBLUE+'name '+str(card)+' returned multiple results; picking first')
+                    print(bcolors.OKBLUE+'name '+str(card)+' returned multiple results; use regex to validate actual name')
                     print(bcolors.ENDC)
-                    card_link = bs.find_all("a", {"class": "card-grid-item-card"})[0]['href']
-                    html = urlopen(card_link)
-                    bs = BeautifulSoup(html,'html.parser')
+                    for i in range(len(bs.find_all("a", {"class": "card-grid-item-card"}))):
+                        url = bs.find_all("a", {"class": "card-grid-item-card"})[i]['href']
+                        pattern = r"/(\w+(?:-\w+)*)$" # extract name from url
+                        match = re.search(pattern, url, re.IGNORECASE)  # search for the pattern in the URL
+                        if match:
+                            card_name2 = match.group(0).replace('-', ' ').replace('/','')
+                            if card_name2 == card_name.lower():
+                                print('matched: '+card_name2+' with: '+card_name)
+                                # card_link = bs.find_all("a", {"class": "card-grid-item-card"})[i]['href']
+                                html = urlopen(url)
+                                bs = BeautifulSoup(html,'html.parser')
+                                break
+                            else:
+                                print('no matched:'+card_name2+' with: '+card_name)
                 
                 image_file_name = get_and_save_image(bs,0)
    
@@ -125,9 +144,9 @@ def main(*args):
             # but sometimes card image is wrong size
             # let's make sure its right size, 672x936
 
-#            im = Image.open('images/'+image_file_name)
-#            im = im.resize((672, 936))
-#            im.save('images/'+image_file_name)
+            im = Image.open('images/'+image_file_name)
+            im = im.resize((672, 936))
+            im.save('images/'+image_file_name)
 
         
         print(master_list)
@@ -166,7 +185,7 @@ def main(*args):
             page.save("temp/"+page_name)
             page_files.append("temp/"+page_name)
 
-        merger = PdfMerger()
+        merger = PdfFileMerger()
 
         for pdf in page_files:
             
@@ -192,6 +211,13 @@ def combine(image_files = ['a.png' for i in range(9)]):
 #    print('\n combine starting with:\n'+str(image_files)+'\n')
     images = [Image.open(x) for x in image_files]
 
+    # optionally shrink images by 1.1x    
+    for i in range(len(images)): 
+        x = images[i]
+        x = x.resize((round(x.size[0]/1.1),round(x.size[1]/1.1)), Image.LANCZOS)
+        images[i] = x
+
+
     c1 = 9 # crop border size
     images = [x.crop((c1,c1,x.size[0]-(c1*2),x.size[1]-(c1*2))) for x in images]
     # add black border of same size
@@ -216,9 +242,11 @@ def combine(image_files = ['a.png' for i in range(9)]):
         else:   
             x_offset += im.size[0]
 
-    # pad the outside to make cards smaller / easier to sleeve
-    new_im = ImageOps.expand(new_im,border=25,fill='black')
-    new_im = ImageOps.expand(new_im,border=25,fill='white')
+    # pad the outside easier to sleeve, this may have no effect on overall size..
+    new_im = ImageOps.expand(new_im,border=5,fill='black')
+    new_im = ImageOps.expand(new_im,border=75,fill='white')
+
+    # resize
 
     return new_im
 
